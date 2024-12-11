@@ -13,7 +13,7 @@ export interface Skill {
   name: string;
   icon: string;
   level: number;
-  category: 'frontend' | 'backend' | 'tools';
+  category: 'frontend' | 'backend' | 'tools' | 'database' | 'testing' | 'cloud' | 'state management';
 }
 
 export interface Testimonial {
