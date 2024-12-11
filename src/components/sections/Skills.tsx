@@ -1,13 +1,27 @@
 import { motion } from 'framer-motion';
 import type { Skill } from '../../types';
 
-const skills: Skill[] = [
+ skills: Skill[] = [
   { name: 'React', icon: '⚛️', level: 90, category: 'frontend' },
   { name: 'TypeScript', icon: '📘', level: 85, category: 'frontend' },
   { name: 'Node.js', icon: '🟢', level: 80, category: 'backend' },
   { name: 'Three.js', icon: '🎮', level: 75, category: 'frontend' },
   { name: 'Python', icon: '🐍', level: 70, category: 'backend' },
-  { name: 'Docker', icon: '🐳', level: 65, category: 'tools' }
+  { name: 'Docker', icon: '🐳', level: 65, category: 'tools' },
+  { name: 'GraphQL', icon: '🔗', level: 80, category: 'backend' },
+  { name: 'HTML5', icon: '📄', level: 95, category: 'frontend' },
+  { name: 'CSS3', icon: '🎨', level: 90, category: 'frontend' },
+  { name: 'Sass', icon: '💅', level: 85, category: 'frontend' },
+  { name: 'MongoDB', icon: '🍃', level: 75, category: 'database' },
+  { name: 'PostgreSQL', icon: '🐘', level: 70, category: 'database' },
+  { name: 'Git', icon: '🔧', level: 85, category: 'tools' },
+  { name: 'Webpack', icon: '📦', level: 80, category: 'tools' },
+  { name: 'Jest', icon: '🃏', level: 75, category: 'testing' },
+  { name: 'Cypress', icon: '🎭', level: 70, category: 'testing' },
+  { name: 'AWS', icon: '☁️', level: 65, category: 'cloud' },
+  { name: 'Firebase', icon: '🔥', level: 70, category: 'backend' },
+  { name: 'Tailwind CSS', icon: '🌬️', level: 85, category: 'frontend' },
+  { name: 'Redux', icon: '🔄', level: 80, category: 'state management' }
 ];
 
 export function Skills() {
